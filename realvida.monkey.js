@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Real Vida
-// @namespace    https://github.com/lucascudo/real-vida
-// @version      0.1
-// @description  Adds subtotals to the movement history.
+// @name         My Real Vida Monkey
+// @namespace    https://github.com/lucascudo/my-real-vida-monkey
+// @version      1.0
+// @description  Facilite sua vida ao acessar https://myrealvida.pt/ com este script para Greasemonkey ou Tampermonkey!.
 // @author       https://github.com/lucascudo
 // @match        https://myrealvida.pt/resgates/ResgatesFinanceiros
 // @match        https://myrealvida.pt/seguros/capitalizacao
