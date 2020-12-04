@@ -11,7 +11,7 @@
 
 (function() {
     let total = 0;
-    setInterval(() =>Array.from(document.querySelectorAll(".movimentos-item")).reverse().forEach((movimento, idx, array) => {
+    setInterval(() => Array.from(document.querySelectorAll(".movimentos-item")).reverse().forEach((movimento, idx, array) => {
         if (movimento.children.length > 2) {
             return;
         }
