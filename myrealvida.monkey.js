@@ -20,7 +20,7 @@
         if (op === 'positivo') {
             total += value;
         } else if (op === 'negativo') {
-            total -= value * 1.01;
+            total -= value;
         }
         const subtotal = document.createElement('div');
         subtotal.innerHTML = '<b>' + total.toFixed(2).toString().replace('.', ',') + ' €</b>';
