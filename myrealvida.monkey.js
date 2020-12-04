@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         My Real Vida Monkey
-// @namespace    https://github.com/lucascudo/my-real-vida-monkey
+// @name         myrealvida.monkey
+// @namespace    https://github.com/lucascudo/myrealvida.monkey
 // @version      1.0
 // @description  Facilite sua vida ao acessar https://myrealvida.pt/ com este script para Greasemonkey ou Tampermonkey!.
 // @author       https://github.com/lucascudo
