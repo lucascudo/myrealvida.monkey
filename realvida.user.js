@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Real Vida Tampermonkey
-// @namespace    http://tampermonkey.net/
+// @name         Real Vida
+// @namespace    https://github.com/lucascudo/real-vida
 // @version      0.1
 // @description  Adds subtotals to the movement history.
 // @author       https://github.com/lucascudo
@@ -11,7 +11,7 @@
 
 (function() {
     let total = 0;
-    setInterval(() => Array.from(document.querySelectorAll(".movimentos-item")).reverse().forEach((movimento, idx, array) => {
+    setInterval(() =>Array.from(document.querySelectorAll(".movimentos-item")).reverse().forEach((movimento, idx, array) => {
         if (movimento.children.length > 2) {
             return;
         }
@@ -20,7 +20,7 @@
         if (op === 'positivo') {
             total += value;
         } else if (op === 'negativo') {
-            total -= value;
+            total -= value * 1.01;
         }
         const subtotal = document.createElement('div');
         subtotal.innerHTML = '<b>' + total.toFixed(2).toString().replace('.', ',') + ' €</b>';
